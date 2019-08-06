@@ -10,7 +10,7 @@ Functions created in plot.py module:
 ### Functions created inside the plot.py file:
 
 * imgview(img, title=None, filename=None):
-Muestra la imagen img. 
+    * Muestra la imagen img. 
     Args:
     img (numpy array): imagen conformada por el array en formato de numpy
     title (string): titulo opcional de la imagen
@@ -32,7 +32,7 @@ Presentacion de dos imagenes paralelas una al lado de otra
     con el titulo opcional y con la descarga opcional de ambas en un solo formato.
     
 * split_rgb(img, filename=None):
-Presentacion de cuatro imagenes con la tonalidad respectiva de RGB
+    * Presentacion de cuatro imagenes con la tonalidad respectiva de RGB
     Args:
     img (numpy array, imagen): imagen ingresada a presentar
     filename (string): titulo de la imagen a descargar en el folder local 
@@ -42,7 +42,7 @@ Presentacion de cuatro imagenes con la tonalidad respectiva de RGB
     Tiene la descarga opcional.
 
 * hist(img, filename=None):
-Presentacion del histograma de colores dentro de la imagen
+    * Presentacion del histograma de colores dentro de la imagen
     Args:
     img (numpy array, imagen): imagen ingresada a presentar
     filename (string): titulo de la imagen a descargar en el folder local 
@@ -52,7 +52,7 @@ Presentacion del histograma de colores dentro de la imagen
     Tiene la descarga opcional.
    
 * imgnorm(img):
-Nomralize an image using min - max values to [0,255]
+    *  Normalize an image using min - max values to [0,255]
     Args:
         img (numpy array): Source image
     Returns:
