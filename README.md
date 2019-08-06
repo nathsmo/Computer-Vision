@@ -20,7 +20,7 @@ Functions created in plot.py module:
     opcion de diplay con su titulo y/o descarga en el folder local
 
 * imgcmp(img1, img2, title=None, filename=None):
-Presentacion de dos imagenes paralelas una al lado de otra
+   * Presentacion de dos imagenes paralelas una al lado de otra
     Args:
     img1 (numpy array, imagen): Primera imagen ingresada
     img2 (numpy array, imagen): Segunda imagen ingresada
