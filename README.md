@@ -9,7 +9,7 @@ Functions created in plot.py module:
 
 ### Functions created inside the plot.py file:
 
-* imgview(img, title=None, filename=None):
+* `imgview(img, title=None, filename=None):`
     * Muestra la imagen img. 
     Args:
     img (numpy array): imagen conformada por el array en formato de numpy
@@ -19,7 +19,7 @@ Functions created in plot.py module:
     result (img): presentacion de la imagen asi tambien como la 
     opcion de diplay con su titulo y/o descarga en el folder local
 
-* imgcmp(img1, img2, title=None, filename=None):
+* `imgcmp(img1, img2, title=None, filename=None):`
    * Presentacion de dos imagenes paralelas una al lado de otra
     Args:
     img1 (numpy array, imagen): Primera imagen ingresada
@@ -31,7 +31,7 @@ Functions created in plot.py module:
     result (img): Presentacion de dos imagenes lado a lado
     con el titulo opcional y con la descarga opcional de ambas en un solo formato.
     
-* split_rgb(img, filename=None):
+* `split_rgb(img, filename=None):`
     * Presentacion de cuatro imagenes con la tonalidad respectiva de RGB
     Args:
     img (numpy array, imagen): imagen ingresada a presentar
@@ -41,7 +41,7 @@ Functions created in plot.py module:
     Primero se presenta la imagen original, seguida por las tonalidades de Rojo, Verde y Azul.
     Tiene la descarga opcional.
 
-* hist(img, filename=None):
+* `hist(img, filename=None):`
     * Presentacion del histograma de colores dentro de la imagen
     Args:
     img (numpy array, imagen): imagen ingresada a presentar
@@ -51,7 +51,7 @@ Functions created in plot.py module:
     intensidad dentro de la imagen ingresada.
     Tiene la descarga opcional.
    
-* imgnorm(img):
+* `imgnorm(img):`
     *  Normalize an image using min - max values to [0,255]
     Args:
         img (numpy array): Source image
