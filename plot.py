@@ -4,7 +4,7 @@ import cv2 as cv
 import numpy as np
 from matplotlib.pyplot import figure
 
-def imgview(img, title=None, filename=None):
+def imgview(img, title=None, filename=None, mapping='gray'): #inclui esto para el proyecto
     """Muestra la imagen img
     
     Args:
@@ -15,13 +15,15 @@ def imgview(img, title=None, filename=None):
     result (img): presentacion de la imagen asi tambien como la 
     opcion de diplay con su titulo y/o descarga en el folder local
     """
+
     figure(num=None, figsize=(10, 10), dpi=80)
 
     goc = (len(img.shape))
     plt.axis('off')
     plt.title(title, fontsize=16)
     if goc == 2:
-        plt.imshow(img, vmin=0, vmax=255, cmap='gray')
+        plt.imshow(img, cmap=mapping)
+        #plt.imshow(img, vmin=0, vmax=255, cmap = 'gray')
     else:
         plt.imshow(img)
     if filename != None:
